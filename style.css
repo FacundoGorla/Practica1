@@ -1,0 +1,236 @@
+body{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,
+  "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  margin: 0;
+  font-weight: 400;
+  line-height: 30px;
+  color: #212520;
+  background-color: white;
+}
+#mainArticle{
+  padding-left: 10px;
+  margin: 0;
+  max-width: 1100px;
+}
+#mainTitle{
+  position: relative;
+  padding: 6px 11px;
+  font-family: avenirltstd black,sans-serif;
+  border-left: #4e96c9 solid 5px;
+  font-size: 40px;
+  text-align: left;
+  display: block;
+  font-weight: 700;
+  margin-bottom:10px;
+}
+.articleImg{
+  margin: 0;
+}
+.articleImg img{
+  width: 1100px;
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+  display: block;
+}
+.imgFooter{
+  text-align: right;
+  margin:0;
+  padding-top: 5px;
+  color: #b1b1b1;
+  font-size: 0.9rem;
+  font-family: avenirltstd regular,sans-serif;
+}
+.authorName{
+  color: #007bff;
+  font-weight: bolder;
+}
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  color:#007bff ;
+}
+a:hover{/* doesn't work on the strong a*/
+  text-decoration: underline;
+  color: rgb(0, 86, 179);
+}
+article p{
+  font-size: 20px;
+  font-family: avenirltstd regular,sans-serif;
+  text-align: justify;
+}
+em{
+  font-style: italic;
+}
+.sectionTitle{
+  font-size: 2.4em;
+  padding: 6px 11px;
+  font-family: avenirltstd black,sans-serif;
+  border-left: #4e96c9 solid 5px;
+  background-color: transparent;
+  width: auto;
+}
+blockquote{
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 20px 0;
+  text-align: justify;
+  font-family: avenirltstd regular,sans-serif;
+}
+.clr{
+  clear: both;
+}
+/* hr{     not working as intendeed              
+  position:absolute ;
+  top: 146%;
+  left: 10px;
+  right: 10px;
+  margin: 0;
+}*/
+.authorImg{
+  margin: 0;
+  padding: 0;
+}
+#authorInfo{
+ /* display: grid; don't really know how to use it*/
+  margin: 0;
+  padding: 14px;
+  border: #cecece solid 1px ;
+  width: 45%;
+  float: left;
+}
+#authorInfo img{
+  float: left;
+  max-width: 136px;
+  border-bottom: #4e96c9 solid 5px;
+  margin-right: 20px;
+  margin-bottom: 160px; /*100$ this is not the way to do this*/
+}
+#authorInfo p{
+  box-sizing: border-box;
+  margin:0;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: justify;
+  max-width: 540px;
+}
+#authorImgFooter{
+  text-align: left;
+  font-style: italic;
+}
+#authorInfo strong{
+  color: #4e96c9;
+  font-style: normal;
+  font-size: 14px;
+}
+#authorInfo a{
+  justify-self: end;
+  color: white;
+  background-color: #4e96c9;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  padding: 5px;
+}
+#authorInfo a:hover{
+  background-color: black;
+}
+#nextNews{
+  float:left;
+  margin-left: 20px;
+  width: 45%;
+}
+#nextNews img{
+  float:left;
+  max-width: 260px;
+  margin-right: 10px;
+  margin-bottom: 120px;
+}
+#nextNews p{
+  margin:0;
+  margin-top: 5px;
+}
+#nextNews .button{
+  justify-self: end;
+  color: white;
+  background-color: #4e96c9;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  padding: 5px;
+}
+#nextNews h3{
+  margin:0;
+  color:black;
+}
+#nextNews .button:hover{
+  background-color: black;
+}
+/*header*/
+#mainHeader img{
+  float:left ;
+  width: auto;
+  margin-right: 70px;
+}
+#mainHeader ul{
+  list-style: none;
+}
+#mainHeader li{
+  display:inline;
+}
+.mainMenu ul{
+  float: left;
+  width: auto;
+  list-style: none;
+  margin: 0;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.mainMenu li{
+  display: inline;
+}
+.mainMenu a{
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+}
+.mainMenu a:hover{
+  color:white;
+  background-color: #4e96c9;
+}
+.socialMedia{
+  margin-top: 5px;
+  margin-right:5px;
+  float: left;
+  width: auto;
+}
+.socialMedia a{
+  font-size: 26px;
+  color: black;
+  padding-right: 10px;
+}
+.searchButton{
+  float: left;
+  width: auto;
+}
+/*footer*/
+#footerMenuLinks /*, #mainMenuLinks*/{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+ /* li {
+    padding-left: 1em;
+    text-indent: -1em;
+  }*/
+  
+.footerMenuItem::before /*, .mainMenuItem::before */{
+    content: "|";
+    padding-right: 5px;
+  }
