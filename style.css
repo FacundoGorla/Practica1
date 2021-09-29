@@ -171,53 +171,56 @@ blockquote{
 #nextNews .button:hover{
   background-color: black;
 }
-/*header*/
-#mainHeader img{
-  float:left ;
-  width: auto;
-  margin-right: 70px;
+/*Header*/
+header{
+  display: flex;
+  width: 100%;
+  border-bottom: #4e96c9 solid 4px;
+  height: 64px;
+  justify-content: space-between;
 }
-#mainHeader ul{
+header *{
+  margin: 0;
+  padding: 0;
+}
+header ul{
   list-style: none;
+
+    align-items: center;
 }
-#mainHeader li{
+header li{
   display:inline;
 }
-.mainMenu ul{
-  float: left;
-  width: auto;
-  list-style: none;
-  margin: 0;
-  margin-top: 5px;
-  margin-right: 10px;
-}
-.mainMenu li{
-  display: inline;
-}
-.mainMenu a{
+.mainMenu li a{
   color: black;
-  text-decoration: none;
-  padding: 20px;
+  text-decoration: none;  
+  padding: 14px 50px;
+  float: left;
 }
-.mainMenu a:hover{
-  color:white;
+.mainMenu li a:hover{
+  color: white;
   background-color: #4e96c9;
 }
-.socialMedia{
-  margin-top: 5px;
-  margin-right:5px;
-  float: left;
-  width: auto;
+header img{
+  height: 36px;
+  padding: 14px 10px;
 }
 .socialMedia a{
-  font-size: 26px;
   color: black;
-  padding-right: 10px;
+  text-decoration: none;
+  float: left;
+  padding: 14px 14px;
+  font-size: 26px;
 }
 .searchButton{
+  font-size: 27px;
+  background-color: #f0f0f0;
+  padding: 14px;
   float: left;
-  width: auto;
 }
+
+
+
 /*footer*/
 #footerMenuLinks /*, #mainMenuLinks*/{
     list-style: none;
